@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>Welcome to page!</h1>
+    <button type="button" onclick="func()">click me!</button>
+    <div id="demo">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque facilis, ut veritatis sit quasi quam incidunt, odio molestias nostrum repellat neque ex, laboriosam eaque ipsam! Autem id ut explicabo excepturi.</p>
+    </div>
+    <script>
+     var c=0;
+     function func(){
+    if(c%2==0){
+        document.getElementById('demo').style.display='none';
+    }
+    else{
+        document.getElementById('demo').style.display='block';
+    }
+    c+=1 
+}  
+    </script> 
+</body>
+</html>

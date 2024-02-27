@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Web page</h1>
+    <button type="button" onclick="func()">Display</button>
+    <div id="main"> 
+        <div class = "mydiv"></div><a href="https://keybr.com">Click me</a>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet sunt eaque totam, sed ipsa suscipit corrupti tempora dolorum veritatis? Minus omnis aut distinctio velit, reprehenderit, aliquid accusantium nobis fuga, maxime consequuntur nostrum ea. Quis tenetur temporibus nisi quo, obcaecati veritatis ut nobis. Ratione corporis placeat illum quas neque blanditiis dolorem.</p>
+    </div>
+    <script>
+        var c=0;
+        function func(){
+            if(c%2==0){
+                document.getElementById("main").style.display='block';
+            }
+            else{
+                document.getElementById("main").style.display='none';
+            }
+            c+=1
+        }
+    </script>
+    
+
+</body>
+</html>

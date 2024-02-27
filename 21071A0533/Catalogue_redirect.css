@@ -1,0 +1,14 @@
+table{
+    border-collapse: collapse;
+}
+td{
+    padding: 15px;
+}
+body{
+    padding-left: 350px;
+    padding-top: 20px;
+}
+button{
+    background-color: rgb(255, 255, 21);
+    border-radius: 15px;
+}

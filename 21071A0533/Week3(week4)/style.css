@@ -1,0 +1,52 @@
+
+h1{
+    color: black;
+    text-align: center;
+
+}
+body{
+    background-image: url(luca-bravo-O453M2Liufs-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+a{
+    color: rgb(0, 255, 234);
+    position: absolute;
+    top: 85px;
+    left: 15px;
+}
+div{
+    margin: auto;
+    width: 700px;
+    position: relative;
+
+}
+#main{
+    display: none;
+}
+.mydiv{
+    background-image:url(pexels-philippe-donn-1133957.jpg);
+    height: 500px;
+    top: 65px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    
+
+}
+p{
+    position: absolute;
+    top: 290px;
+    left: 175px;
+    right: 100px;
+    border: 2px solid white;
+    color:aliceblue;
+    padding: 5px;
+    border-radius: 20px;
+    font-weight:bold;
+}
+button{
+    display: block;
+    margin: auto;
+    color: blue;
+}
